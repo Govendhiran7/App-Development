@@ -1,0 +1,168 @@
+
+
+a {
+    text-decoration: none;
+  }
+  
+  .bodyl {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      height: 100%;
+      width: 100%;
+      background-color: #000000;
+    }
+    
+    footer {
+      color: rgb(0, 0, 0);
+      background-color:#ffffff;
+      bottom: 0;
+      height:500px;
+    }
+    
+    .row {
+      display: flex;
+      padding: 2rem;
+    }
+    
+    .column {
+      
+      padding: 0 0.9375rem;
+      width: calc(100% / 2); 
+      
+    }
+    
+    .col { padding-left: 2rem;
+      margin-bottom: 0.9375rem;
+      font-size: 0.9rem;
+    }
+    .image
+    {
+      width: 45px;
+      height: 45px;
+    }
+  
+    
+    ul {
+      list-style:none;
+      margin: 0;
+      
+    }
+    
+    ul li {
+      margin-bottom: 0.625rem;
+    }
+    
+    ul li a {
+      color:rgb(0, 0, 0);
+      font-size: 1rem;
+      transition: 0.3s all ease;
+    }
+    
+   
+    
+    
+    .social-icons {
+      margin-top: 10px;
+    }
+    
+    .social-icons a {
+      color: rgb(0, 0, 0);
+      font-size: 24px;
+      margin-right: 10px;
+      text-decoration: none;
+    }
+   
+    
+    
+   
+    
+    .copyright {
+      text-align: center;
+      color:rgb(8, 0, 0);
+      background-color:rgb(255, 255, 255);
+      padding: 0.6rem 0;
+    }
+    
+    @keyframes shake {
+          from,
+          to {
+            transform: scale(1, 1);
+          }
+          25% {
+            transform: scale(0.9, 1.1);
+          }
+          50% {
+            transform: scale(1.1, 0.9);
+          }
+          75% {
+            transform: scale(0.95, 1.05);
+          }
+        }
+    
+    
+    
+    @media screen and (max-width: 768px) {
+      .column {
+        margin: 0.4rem 0;
+        width: 100%;
+        padding: 0;
+      }
+    
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+      }
+    
+      .col {
+        font-size: 1.3125rem;
+      }
+    
+      p {
+        font-size: 0.9375rem;
+      }
+    
+      ul li a {
+        font-size: 0.9375rem;
+      }
+    
+     
+    }
+    .label {
+      height: 275px;
+      width: 544px;
+    }
+    
+    .label .WE-d-LIKE-LOVE-TO {
+      color: transparent;
+      font-family: "Inter-Bold", Helvetica;
+      font-size: 70px;
+      font-weight: 700;
+      left: 0;
+      letter-spacing: 0;
+      line-height: normal;
+      top: 0;
+      width: 544px;
+    }
+    
+    .label .text-wrapper {
+      color: #5eb2ef;
+    }
+    
+    .label .span {
+      color: #000000;
+    }
+    
+    .label .text-wrapper-2 {
+      color: #007e54;
+    }
+    .below-links
+    {
+      padding-left: 485px;
+  text-align: justify; 
+   }
+  
+    
+   
+  

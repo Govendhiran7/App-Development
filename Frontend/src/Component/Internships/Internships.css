@@ -1,0 +1,87 @@
+.search-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #f4f4f4;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000; /* Ensure the search bar is on top */
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: none;
+}
+
+.search-bar button {
+  background-color: #1cac66;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.search-bar button:hover {
+  background-color: #00b30c;
+}
+
+.job-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 60px; /* Adjusted margin to make space for the fixed search bar */
+}
+
+.job-item {
+  max-width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.job-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.job-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.job-item p {
+  margin-bottom: 10px;
+}
+
+.job-item button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+}
+
+.job-item button:hover {
+  background-color: #218838;
+}

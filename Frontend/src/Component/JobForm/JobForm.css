@@ -1,0 +1,60 @@
+/* JobForm.css */
+
+.job-form-page-container {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Arial', sans-serif;
+    align-items: center;
+    margin-top: 20px;
+    background-image: url('https://img.freepik.com/free-photo/workplace-with-blue-office-supplies_23-2147843328.jpg?size=626&ext=jpg&ga=GA1.1.1185309256.1695522677&semt=ais'); /* Add your image URL here */
+    background-size: cover; /* Adjust as needed */
+  }
+  
+  .job-form-page-form {
+    width: 350px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to make text readable */
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-form-page-app {
+    margin-bottom: 1.5rem;
+    color: #333;
+    font-size: 1.5rem;
+  }
+  
+  .job-form-page-group {
+    margin-bottom: 20px;
+  }
+  
+  .job-form-page-group label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .job-form-page-group input[type="text"],
+  .job-form-page-group input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 16px;
+  }
+  
+  .job-form-page-group button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .job-form-page-group button:hover {
+    background-color: #0056b3;
+  }
+  

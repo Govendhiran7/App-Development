@@ -1,0 +1,61 @@
+.body2{
+    background :no-repeat url("https://img.freepik.com/premium-photo/keyboard-coffee-smartphone-notebook-color-background-top-view_1286-776.jpg");
+    background-size:cover;
+    font-size: 17px;
+    font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  height: 100vh;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+input[type=text],[type=number],[type=password]
+{
+    width:80%;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+input[type=email]
+{
+    width:80%;
+    padding: 3px 22px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    height: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    
+}
+button[class="submit2"] {
+  margin-top: 1x;
+  cursor: pointer;
+  font-size: 14px;
+  background:rgb(206, 212, 212);
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid rgb(203, 226, 234);
+  border-radius: 10px;
+}
+  .signup-form {
+    
+    background-color:rgb(129, 145, 156);
+    padding: 1rem;
+    padding-right: 25rem;
+    text-align: left;
+    justify-content: flex-start; 
+    position:relative; 
+    top:2px; 
+    box-shadow: 1 5px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:white;
+    background-image: url("https://e1.pxfuel.com/desktop-wallpaper/447/436/desktop-wallpaper-job-search-i-m-unemployed-stock-unemployment.jpg");
+    background-repeat: no-repeat;
+    background-size: 55% 100%;
+    background-position: right;
+    
+  }

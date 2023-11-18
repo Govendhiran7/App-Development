@@ -1,0 +1,59 @@
+/* ... (previous styles) ... */
+
+.job-item {
+  position: relative;
+  max-width: 300px;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.job-item:hover {
+  transform: scale(1.05);
+}
+
+.job-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: transform 0.3s;
+}
+
+.job-item:hover img {
+  transform: scale(1.2);
+}
+
+.job-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.job-item p {
+  margin-bottom: 10px;
+}
+
+.job-item button {
+  background-color: #28a73d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+.job-item button:hover {
+  background-color: #218838;
+}
+
+/* ... (rest of the styles) ... */
